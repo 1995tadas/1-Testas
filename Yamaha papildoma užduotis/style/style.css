@@ -1,0 +1,110 @@
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.space-between {
+    justify-content: space-between;
+    display: flex;
+}
+.flex-end {
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 500px
+}
+header {
+    background-color: #cccccc;;
+}
+header img {
+    height: 50px;
+}
+header a {
+    color: red;
+    text-decoration: none;
+}
+header li {
+    display: inline;
+    margin-left: 15px;
+}
+#wallpaper {
+    background: url(../images/Yamaha-wallpaper.jpg);
+    background-size: cover;
+    height: 500px;
+    
+}
+#wallpaper h1 {
+    background-color: red;
+    display: inline;
+    padding: 10px;
+    opacity: 0.6;
+}
+h2 {
+    color: red;
+    font-weight: lighter;
+}
+span {
+    font-weight: bold;
+}
+h3:before {
+    content: "\002666"
+}
+#moto img{
+   max-width: 100%; 
+}
+#moto .space-between div {
+    text-align: justify;
+    background-color:  #cccccc;
+    margin-left: 8px;
+    padding: 10px;
+    border-radius: 3px;
+}
+#moto h3 {
+    text-align: center;
+} 
+#moto .space-between div:first-child {
+    margin-left: 0;
+}
+#contacts .space-between div {
+    width: 50%;
+}
+#contacts input, textarea {
+    width: 95%;
+    margin: 5px 0;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    border-radius: 3px;
+}
+#contacts input:first-child{
+    margin-top: 0;
+}
+#contacts textarea {
+    height: 80px;
+}
+#contacts input:last-child {
+    border: 1px solid red;
+    width: 30%;
+    background-color: white;
+}
+#contacts img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+#contacts input, textarea {
+    margin-right: 5px;
+}
+#contacts {
+    padding-top: 20px;
+}
+footer {
+    background-color: #cccccc;
+    text-align: center;
+    padding: 15px;
+}
+footer p {
+    margin: 0;
+    color: white;
+}
+
+
+
